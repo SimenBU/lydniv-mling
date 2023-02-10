@@ -2,7 +2,7 @@ Lyd = "Verdi"
 Lydnivå_Verdi = 0
 
 def ReadSensor():
-    return input.sound_level()
+    return input.sound_level()*10
 
 def on_forever():
     Lydnivå_Verdi
