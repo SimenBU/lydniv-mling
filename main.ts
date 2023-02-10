@@ -1,7 +1,7 @@
 let Lyd = "Verdi"
 let Lydnivå_Verdi = 0
 function ReadSensor(): number {
-    return input.soundLevel()
+    return input.soundLevel()*10
 }
 
 basic.forever(function on_forever() {
